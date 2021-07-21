@@ -1,7 +1,7 @@
 .sideBar{
     background-color: #fbe1f3;
     height: 100%;
-    width: 25%;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -11,9 +11,23 @@
     color: #523cda;
 }
 
+.workGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color:#523cda;
+}
+
 body{
     font-family: 'Manjari', sans-serif;
     font-size: 23px;
+    display: flex;
+}
+
+.mainContent{
+margin-left: 350px;
+padding: 1px 16px;
+height: 1000px;
 }
 
 #logoImg{
@@ -24,16 +38,6 @@ body{
 #profileImg{
     border-radius: 25px;
     width: 400px;
-}
-
-.heroImg{
-    height: 600px;
-    padding: 25px;
-}
-
-.content{
-    width: 500px;
-    margin: 0 auto;
 }
 
 h1{
@@ -72,9 +76,4 @@ h3{
       list-style-type: none;
       margin: 0;
       padding: 0;
-  }
-
-  .socialLinks{
-      float: left;
-      width: 5px;
   }
