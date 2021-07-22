@@ -89,11 +89,21 @@ h3{
   }
   
   .projLCol{
-    border-radius: 25px;
+
     background-color: #523cda;
+    border-radius: 25px;
+    margin-right: 25px;
+    
   }
 
   .projRCol{
-    border-radius: 25px;
+ 
     background-color: #523cda;
+    border-radius: 25px;
+  }
+
+  .projRow{
+      margin-bottom: 25px;
+      color: white;
+      text-align: center;
   }
