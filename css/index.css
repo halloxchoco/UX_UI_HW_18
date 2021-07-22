@@ -11,10 +11,7 @@
 }
 
 .workGrid{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    background-color:#523cda;
+    background-color:whitesmoke;
 }
 
 body{
@@ -89,4 +86,14 @@ h3{
 
   .socialBar img{
       width: 35px;
+  }
+  
+  .projLCol{
+    border-radius: 25px;
+    background-color: #523cda;
+  }
+
+  .projRCol{
+    border-radius: 25px;
+    background-color: #523cda;
   }
